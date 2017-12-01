@@ -4,8 +4,23 @@
 	<title>日景建設</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/default-theme.css">
+	<style>
+		#mainHeaderWrapper{
+			position: relative;
+			background: no-repeat url(images/house.jpg) 50% / 100%;
+		}
+		#mainHeaderWrapper > img{
+			vertical-align: top;
+			width: 100%; /* max width */
+			opacity: 0;  /* make it transparent */
+		}
+		#mainHeaderWrapper > div{
+			position: absolute;
+			top: 0;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-bottom">
@@ -19,6 +34,13 @@
     </ul>
   </div>
 </nav>
+
+<div id="mainHeaderWrapper">
+	<img src="images/house.jpg">
+	<div>
+		<h2>日景建設 由永和在地的建設公司-榮美建設團隊的專業經理人所共同創立</h2>
+	</div>
+</div>
 
 </body>
 </html>
