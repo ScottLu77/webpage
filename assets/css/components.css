@@ -378,10 +378,12 @@
     text-shadow: 0.5px 0px;
     -moz-text-shadow: 0.5px 0px;
     -webkit-text-shadow: 0.5px 0px;
+    padding: 5px 0;
   }
   .main .content_txt .txt h3 {
     font-size: 1em;
     color: #847b5c;
+    padding: 5px 0;
   }
   .main .content_txt .txt p {
     font-size: 1.1em;
@@ -403,7 +405,7 @@
   }
   .main .read_more {
     width: 206px;
-    height: 55px;
+    height: 42px;
     position: relative;
     display: block;
     background-image: url("../../images/readmore.jpg");
@@ -693,6 +695,7 @@
   .main .content_txt .txt {
     width: 80%;
     position: relative;
+    margin: 3% auto 0;
     display: block;
   }
   .main .content_txt .txt h1 {
@@ -701,6 +704,7 @@
     text-shadow: 0.5px 0px;
     -moz-text-shadow: 0.5px 0px;
     -webkit-text-shadow: 0.5px 0px;
+    padding: 5px 0;
   }
   .main .content_txt .txt h3 {
     font-size: 0.9em;
@@ -727,7 +731,7 @@
   }
   .main .read_more {
     width: 206px;
-    height: 50px;
+    height: 42px;
     position: relative;
     display: block;
     background-image: url("../../images/readmore.jpg");

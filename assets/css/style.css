@@ -786,14 +786,15 @@ pre {
 
 .menuzord-menu {
     float: left;
-    margin-top: 40px;
-    margin-right: 50px;
+    margin: 0;
     padding: 0;
     list-style: none;
 }
 
 .menuzord-menu.menuzord-right {
     float: right;
+	margin-top: 30px;
+	margin-right: 80px;
 }
 
 .menuzord-menu ul.dropdown li a,
@@ -6149,7 +6150,7 @@ Table of contents
     .menuzord-responsive .menuzord-menu ul.dropdown li ul.dropdown {
         position: static;
         left: 0;
-        float: left; 
+        float: left; menuzord-menu
         width: 100%;
         border: none;
         background: #fff;
@@ -6830,13 +6831,6 @@ Table of contents
     content: "Create";
 }
 
-.menuzord-menu a.menu-item {
-    width: 120px;
-    text-align: center;
-	color: #2d2d2d;
-    font-size: 22px;
-}
-
 .menuzord-menu a.menu-about {
     width: 80px;
     text-align: center;
@@ -6873,3 +6867,34 @@ Table of contents
 .products-filter li.active a {
     color: #222;
 }
+
+
+.menuzord-menu a.menu-item {
+	width: 100px;
+	text-align: center;
+	color: #606060;
+	font-size: 18px;
+}
+
+#introduction {
+	position: relative;
+	float: right;
+	right: 175px
+}
+
+#introduction ul {
+	list-style: none;
+	color: #242424;
+	font-size: 18px;
+}
+
+#introduction a {
+	color: #606060;
+	font-size: 18px;
+}
+
+#introduction a:hover {
+	color: #fe5000;
+}
+
+
