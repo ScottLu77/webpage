@@ -793,7 +793,7 @@ pre {
 
 .menuzord-menu.menuzord-right {
     float: right;
-	margin-right: 5%
+	margin-right: 3%
 }
 
 .menuzord-menu ul.dropdown li a,
@@ -6149,7 +6149,7 @@ Table of contents
     .menuzord-responsive .menuzord-menu ul.dropdown li ul.dropdown {
         position: static;
         left: 0;
-        float: left; menuzord-menu
+        float: left; 
         width: 100%;
         border: none;
         background: #fff;
@@ -6869,17 +6869,10 @@ Table of contents
 
 
 .menuzord-menu a.menu-item {
-	width: 90px;
-	text-align: center;
-	color: #606060;
-	font-size: 16px;
-}
-
-.menuzord-menu a.menu-track {
 	width: 100px;
 	text-align: center;
-	color: #2d2d2d;
-	font-size: 14px;
+	color: #2e2e2e;
+	font-size: 18px;
 }
 
 #introduction {
