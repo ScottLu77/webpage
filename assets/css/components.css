@@ -997,3 +997,25 @@
     padding: 10px 0 0;
     line-height: 1.1em;
 }
+
+	.main .heading {
+		margin-top: 20px;
+		margin-bottom: 60px;
+	}
+
+	.main .heading-center {
+		text-align: center;
+		float: none;
+	}
+
+	.main .heading h2 {
+		font-size: 2em;
+		color: #373737;
+		border-width: 1px;
+		border-color: #000;
+		border-style: solid;
+		padding: 10px 20px 10px;
+		max-width: 640px;
+		margin: auto;
+	}
+
