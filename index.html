@@ -4,9 +4,11 @@
 	<title>日景頂曦</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/default-theme.css">
-    <link rel="stylesheet" href="assets/css/components.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/default-theme.css">
+	<link rel="stylesheet" href="assets/css/components.css">
 	<style>
 		#mainHeaderWrapper{
 			position: relative;
@@ -35,189 +37,191 @@
 	</style>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-		<div class="navbar-header">
-			<img src="images/logo1.png" height="48" width="50" hspace="4" vspace="2">
-			<img src="images/logo2.png" height="48" width="50" hspace="5" vspace="2">
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<img src="images/logo1.png" height="48" width="50" hspace="4" vspace="2">
+				<img src="images/logo2.png" height="48" width="50" hspace="5" vspace="2">
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="profile.html">公司簡介</a></li>
+				<li><a href="#">最新消息</a></li>
+				<li class="dropup"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">熱銷建案<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">日景頂曦</a></li>
+					</ul>
+				</li>
+			</ul>
 		</div>
-    </div>
-    <ul class="nav navbar-nav">
-      <li><a href="profile.html">公司簡介</a></li>
-      <li><a href="#">最新消息</a></li>
-      <li class="active"><a href="#">日景頂曦</a></li>
-    </ul>
-  </div>
-</nav>
+	</nav>
 
-<div id="mainHeaderWrapper">
-	<img src="images/master.jpg">
-	<div>
-		<!--header start-->
-		<header class="l-header">
-			<div class="l-navbar l-navbar_expand js-navbar-sticky">
-				<div class="container-fluid">
-					<nav class="menuzord js-primary-navigation" role="navigation" aria-label="Primary Navigation">
-						<!--mega menu start-->
-						<ul class="menuzord-menu menuzord-right c-nav_s-standard">
-							<li><a href="#feature06" class="menu-item"><span>建案資訊</span></a></li>
-							<li><a href="#feature01" class="menu-item"><span>台北悠遊</span></a></li>
-							<li><a href="#feature02" class="menu-item"><span>光點城市</span></a></li>
-							<li><a href="#feature03" class="menu-item"><span>時選薈萃</span></a></li>
-							<li><a href="#feature04" class="menu-item"><span>豐美生活</span></a></li>
-							<li><a href="#feature05" class="menu-item"><span>日系建築</span></a></li>
-							<li><a href="track.html" class="menu-item"><span>工程進度</span></a></li>
-						</ul>
-						<!--mega menu end-->
-					</nav>
-                </div>
-            </div>
-			&nbsp;
-        </header>
-        <!--header end-->
-	</div>
-</div>
-
-<div class="main">
-	<article class="content cbg_a">
-		<section id="feature01">
-			<ul>
-				<li class="content_img content_float_right"><a href="#"><img alt="頂溪步行一分鐘" src="images/feature_01.jpg" /></a></li>
-				<li class="content_txt content_float_left">
-					<span class="title"><img alt="特色一" src="images/feature01.png" /></span>
-					<div class="txt">
-						<h1>台北 悠遊</h1>
-						<h3>頂溪站步行一分鐘，最從容的捷運置產學</h3>
-						<p>日景頂曦，隱於頂溪捷運站1號出口旁巷弄裡，在漫步中洗滌塵囂，閱讀街道，優雅返家。鄰捷運站房產，始終具有抗跌保值力，距捷運站越近，物件越熱門，更是成功的置產方程式。</p>
+	<div id="mainHeaderWrapper">
+		<img src="images/master.jpg">
+		<div>
+			<!--header start-->
+			<header class="l-header">
+				<div class="l-navbar l-navbar_expand js-navbar-sticky">
+					<div class="container-fluid">
+						<nav class="menuzord js-primary-navigation" role="navigation" aria-label="Primary Navigation">
+							<!--mega menu start-->
+							<ul class="menuzord-menu menuzord-right c-nav_s-standard">
+								<li><a href="#feature06" class="menu-item"><span>建案資訊</span></a></li>
+								<li><a href="#feature01" class="menu-item"><span>台北悠遊</span></a></li>
+								<li><a href="#feature02" class="menu-item"><span>光點城市</span></a></li>
+								<li><a href="#feature03" class="menu-item"><span>時選薈萃</span></a></li>
+								<li><a href="#feature04" class="menu-item"><span>豐美生活</span></a></li>
+								<li><a href="#feature05" class="menu-item"><span>日系建築</span></a></li>
+								<li><a href="track.html" class="menu-item"><span>工程進度</span></a></li>
+							</ul>
+							<!--mega menu end-->
+						</nav>
 					</div>
-				</li>
-			</ul>
-		</section>
-	</article>
-	<article class="content cbg_b">
-		<section id="feature02">
-			<ul>
-				<li class="content_img content_float_left"><a href="#"><img alt="一橋到北市" src="images/feature_02.jpg" /></a></li>
-				<li class="content_txt content_float_right">
-					<span class="title"><img alt="特色二" src="images/feature02.png" /></span>
-					<div class="txt">
-						<h1>光點 城市</h1>
-						<h3>一橋到北市，多元交通路網，移動生活無界線</h3>
-						<p>頂溪站屬捷運新蘆中和線，至古亭站4分鐘，東門站7分鐘，西門站10分鐘，忠孝復興站13分鐘，台北車站16分鐘，台北101站16分鐘！別讓自己委屈租在台北市了，選擇住在最靠近台北市的捷運站-頂溪站，與台北無縫接軌，卻仍享有親民價，是最精明的置產思維。 </p>
-					</div>
-				</li>
-			</ul>
-		</section>
-	</article>
-	<article class="content cbg_a">
-		<section id="feature03">
-			<ul>
-				<li class="content_img content_float_right"><a href="#"><img alt="綠建築" src="images/feature_03.jpg" /></a></li>
-				<li class="content_txt content_float_left">
-					<span class="title"><img alt="特色三" src="images/feature03.png" /></span>
-					<div class="txt">
-						<h1>時選 薈萃</h1>
-						<h3>日系美學人文綠建築</h3>
-						<p>今田晴雄多年積累深厚的建築功力，每次出手，都讓人驚艷。這次，他與同樣擁有數十年建築經驗、擅於細膩琢磨空間尺度的朱文熙建築師，聯手擘畫「日景頂曦」，創造絕無僅有的17~25坪，日系美學人文綠建築，為您實現住在日式風格住宅的夢想。</p>
-					</div>
-				</li>
-			</ul>
-		</section>
-	</article>
-	<article class="content cbg_b">
-		<section id="feature04">
-			<ul>
-				<li class="content_img content_float_left"><a href="#"><img alt="" src="images/feature_04.jpg" /></a></li>
-				<li class="content_txt content_float_right">
-					<span class="title"><img alt="特色四" src="images/feature04.png" /></span>
-					<div class="txt">
-						<h1>豐美 生活</h1>
-						<h3>內容待討論</h3>
-						<p>內容待討論</p>
-					</div>
-				</li>
-			</ul>
-		</section>
-	</article>
-	<article class="content cbg_a">
-		<section id="feature05">
-			<ul>
-				<li class="content_img content_float_right"><a href="#"><img alt="綠建築" src="images/feature_03.jpg" /></a></li>
-				<li class="content_txt content_float_left">
-					<span class="title"><img alt="特色五" src="images/feature05.png" /></span>
-					<div class="txt">
-						<h1>日系 建築</h1>
-						<h3>內容尚待討論</h3>
-						<p>內容尚待討論</p>
-					</div>
-				</li>
-			</ul>
-		</section>
-	</article>
-	<article class="content cbg_b">
-		<section id="feature06">
-			<div class="heading heading-center">
-				<h2>建案資訊</h2>
-			</div>
-
-			<div class="container" style="width:800px;">
-				<div class="table-responsive">
-					<table class="table table-bordered table-striped">
-						<colgroup>
-							<col class="col-xs-4">
-							<col class="col-xs-4">
-						</colgroup>
-						<tbody>
-							<tr>
-								<td>投資興建：日景建設</td>
-							</tr>
-							<tr>
-								<td>基地面積：約189坪</td>
-							</tr>
-							<tr>
-								<td>樓層：地上12層, 地下2層</td>
-							</tr>
-							<tr>
-								<td><b>接待中心：新北市永和區復興街36號</b></td>
-							</tr>
-							<tr>
-								<td><b>洽詢電話：(02)8923-5588</b></td>
-							</tr>
-						</tbody>
-					</table>
 				</div>
-			</div>
-		</section>
-	</article>
-	<article class="content cbg_b">
-		<section>
-			<div class="heading heading-center">
-				<h2>接待中心地圖</h2>
-			</div>
-			<div id="map" style="margin-bottom:70px;"></div>
-		</section>
-	</article>
-</div>
+				&nbsp;
+			</header>
+			<!--header end-->
+		</div>
+	</div>
 
-<script>
-      function initMap() {
-		var myLatLng = {lat: 25.012938, lng: 121.516345};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: myLatLng,
-          zoom: 18
-        });
+	<div class="main">
+		<article class="content cbg_a">
+			<section id="feature01">
+				<ul>
+					<li class="content_img content_float_right"><a href="#"><img alt="頂溪步行一分鐘" src="images/feature_01.jpg" /></a></li>
+					<li class="content_txt content_float_left">
+						<span class="title"><img alt="特色一" src="images/feature01.png" /></span>
+						<div class="txt">
+							<h1>台北 悠遊</h1>
+							<h3>頂溪站步行一分鐘，最從容的捷運置產學</h3>
+							<p>日景頂曦，隱於頂溪捷運站1號出口旁巷弄裡，在漫步中洗滌塵囂，閱讀街道，優雅返家。鄰捷運站房產，始終具有抗跌保值力，距捷運站越近，物件越熱門，更是成功的置產方程式。</p>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</article>
+		<article class="content cbg_b">
+			<section id="feature02">
+				<ul>
+					<li class="content_img content_float_left"><a href="#"><img alt="一橋到北市" src="images/feature_02.jpg" /></a></li>
+					<li class="content_txt content_float_right">
+						<span class="title"><img alt="特色二" src="images/feature02.png" /></span>
+						<div class="txt">
+							<h1>光點 城市</h1>
+							<h3>一橋到北市，多元交通路網，移動生活無界線</h3>
+							<p>頂溪站屬捷運新蘆中和線，至古亭站4分鐘，東門站7分鐘，西門站10分鐘，忠孝復興站13分鐘，台北車站16分鐘，台北101站16分鐘！別讓自己委屈租在台北市了，選擇住在最靠近台北市的捷運站-頂溪站，與台北無縫接軌，卻仍享有親民價，是最精明的置產思維。 </p>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</article>
+		<article class="content cbg_a">
+			<section id="feature03">
+				<ul>
+					<li class="content_img content_float_right"><a href="#"><img alt="綠建築" src="images/feature_03.jpg" /></a></li>
+					<li class="content_txt content_float_left">
+						<span class="title"><img alt="特色三" src="images/feature03.png" /></span>
+						<div class="txt">
+							<h1>時選 薈萃</h1>
+							<h3>日系美學人文綠建築</h3>
+							<p>今田晴雄多年積累深厚的建築功力，每次出手，都讓人驚艷。這次，他與同樣擁有數十年建築經驗、擅於細膩琢磨空間尺度的朱文熙建築師，聯手擘畫「日景頂曦」，創造絕無僅有的17~25坪，日系美學人文綠建築，為您實現住在日式風格住宅的夢想。</p>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</article>
+		<article class="content cbg_b">
+			<section id="feature04">
+				<ul>
+					<li class="content_img content_float_left"><a href="#"><img alt="" src="images/feature_04.jpg" /></a></li>
+					<li class="content_txt content_float_right">
+						<span class="title"><img alt="特色四" src="images/feature04.png" /></span>
+						<div class="txt">
+							<h1>豐美 生活</h1>
+							<h3>內容待討論</h3>
+							<p>內容待討論</p>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</article>
+		<article class="content cbg_a">
+			<section id="feature05">
+				<ul>
+					<li class="content_img content_float_right"><a href="#"><img alt="綠建築" src="images/feature_03.jpg" /></a></li>
+					<li class="content_txt content_float_left">
+						<span class="title"><img alt="特色五" src="images/feature05.png" /></span>
+						<div class="txt">
+							<h1>日系 建築</h1>
+							<h3>內容尚待討論</h3>
+							<p>內容尚待討論</p>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</article>
+		<article class="content cbg_b">
+			<section id="feature06">
+				<div class="heading heading-center">
+					<h2>建案資訊</h2>
+				</div>
 
-		var marker = new google.maps.Marker({
-			position: myLatLng,
-			map: map,
-			title: '日景頂曦'
-		});
-		marker.setMap(map);
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSSXXQDKV-gyx2oX4wECDAjzFFwUxCRhE&callback=initMap&language=zh-TW"
+				<div class="container" style="width:800px;">
+					<div class="table-responsive">
+						<table class="table table-bordered table-striped">
+							<colgroup>
+								<col class="col-xs-4">
+								<col class="col-xs-4">
+							</colgroup>
+							<tbody>
+								<tr>
+									<td>投資興建：日景建設</td>
+								</tr>
+								<tr>
+									<td>基地面積：約189坪</td>
+								</tr>
+								<tr>
+									<td>樓層：地上12層, 地下2層</td>
+								</tr>
+								<tr>
+									<td><b>接待中心：新北市永和區復興街36號</b></td>
+								</tr>
+								<tr>
+									<td><b>洽詢電話：(02)8923-5588</b></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</section>
+		</article>
+		<article class="content cbg_b">
+			<section>
+				<div class="heading heading-center">
+					<h2>接待中心地圖</h2>
+				</div>
+				<div id="map" style="margin-bottom:70px;"></div>
+			</section>
+		</article>
+	</div>
+
+	<script>
+		function initMap() {
+			var myLatLng = {lat: 25.012938, lng: 121.516345};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				center: myLatLng,
+				zoom: 18
+			});
+
+			var marker = new google.maps.Marker({
+				position: myLatLng,
+				map: map,
+				title: '日景頂曦'
+			});
+			marker.setMap(map);
+		}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSSXXQDKV-gyx2oX4wECDAjzFFwUxCRhE&callback=initMap&language=zh-TW"
     async defer>
-</script>
+	</script>
 </body>
 </html>
