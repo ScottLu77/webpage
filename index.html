@@ -208,11 +208,46 @@
 				<div id="reserve" class="heading heading-center">
 					<h2>預約賞屋</h2>
 				</div>
-
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<form class="contact-comments js-Mailer" method="post">
+							<div class="row">
+								<div class="col-md-6 col-md-offset-3">
+									<div class="form-group">
+										<!-- Name -->
+										<input type="text" name="name" class=" form-control" placeholder="姓名" maxlength="100" required data-error="請輸入您的姓名">
+										<div class="help-block with-errors"></div>
+									</div>
+									<div class="form-group">
+										<!-- Phone -->
+										<input type="text" name="name" class=" form-control" placeholder="電話" maxlength="100" required data-error="請輸入您的電話">
+										<div class="help-block with-errors"></div>
+									</div>
+									<div class="form-group">
+										<!-- Email -->
+										<input type="email" name="email" class=" form-control" placeholder="E-MAIL" maxlength="100" required data-error="請輸入您的E-MAIL">
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+								<div class="col-md-6 col-md-offset-3">
+									<div class="form-group">
+										<!-- Comment -->
+										<textarea name="comments" class="cmnt-text form-control" placeholder="備註欄" maxlength="400"></textarea>
+									</div>
+									<div class="form-group full-width">
+										<button type="submit" class="btn btn-small btn-dark-solid ">送&nbsp;&nbsp;出&nbsp;&nbsp;訊&nbsp;&nbsp;息</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
 			</section>
 		</article>
 	</div>
 
+
+	<script src="assets/js/scripts.js"></script>
 	<script>
 		function initMap() {
 			var myLatLng = {lat: 25.012938, lng: 121.516345};
@@ -234,6 +269,6 @@
 	</script>
 
 
-<div style="margin-bottom:70px;"></div>
+<div style="margin-bottom:53px;"></div>
 </body>
 </html>
