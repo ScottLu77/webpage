@@ -1178,7 +1178,7 @@ pre {
     }
     .logo-brand,
     .c-nav_s-standard > li > a {
-        line-height: 100px;
+        line-height: 50px;
     }
     .c-nav_s-bg > li > a {
         line-height: 40px;
@@ -6869,7 +6869,7 @@ Table of contents
 
 
 .menuzord-menu a.menu-item {
-	width: 100px;
+	width: 110px;
 	text-align: center;
 	color: #2e2e2e;
 	font-size: 18px;
@@ -6896,4 +6896,26 @@ Table of contents
 	color: #fe5000;
 }
 
+a.button {
+	float: right;
+	margin-right: 5%;
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+}
+
+a.button:hover {
+	color: #fe5000;
+	border: 1px solid #fe5000;
+}
+
+a.button img {
+	width: 20px;
+	height: 20px
+	vertical-align: middle;
+	padding-right: 5px;
+}
 
