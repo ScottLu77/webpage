@@ -9,6 +9,9 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/default-theme.css">
 	<link rel="stylesheet" href="assets/css/components.css">
+	<!-- Images grid -->
+	<link rel="stylesheet" href="assets/css/images-grid.css">
+	<script src="assets/js/images-grid.js"></script>
 	<style>
 		#mainHeaderWrapper{
 			position: relative;
@@ -33,7 +36,6 @@
 			height: 100%;
 			min-height: 370px;
 		}
-
 	</style>
 </head>
 <body>
@@ -88,7 +90,7 @@
 		<article class="content cbg_a">
 			<section id="feature01">
 				<ul>
-					<li class="content_img content_float_right"><a href="#"><img alt="頂溪步行一分鐘" src="images/feature_01.jpg" /></a></li>
+					<li class="content_img content_float_right"><div id="gallery"></div></li>
 					<li class="content_txt content_float_left">
 						<span class="title"><img alt="特色一" src="images/feature01.png" /></span>
 						<div class="txt">
@@ -268,6 +270,17 @@
     async defer>
 	</script>
 
+	<script>
+		$('#gallery').imagesGrid({
+			images: [
+				{ src: 'images/feature_01.jpg', thumbnail: 'images/feature_01.jpg' },
+				'images/feature_02.jpg',
+				'images/feature_03.jpg',
+				'images/feature_04.jpg'
+                ],
+                align: true
+            });
+	</script>
 
 <div style="margin-bottom:53px;"></div>
 </body>
