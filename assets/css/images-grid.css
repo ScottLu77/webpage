@@ -38,7 +38,9 @@
   background-color: #f0f0f0;
 }
 .imgs-grid .imgs-grid-image:hover {
-  cursor: pointer;
+	cursor: pointer;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
 }
 .imgs-grid .imgs-grid-image .image-wrap {
   position: relative;
@@ -97,7 +99,7 @@
   left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
+  bottom: 20px;
   background-color: black;
   opacity: 0;
   z-index: 100;
@@ -110,6 +112,7 @@
 .imgs-grid-modal .modal-caption {
   padding: 30px 50px;
   text-align: center;
+  font-size: 20px;
   color: white;
 }
 .imgs-grid-modal .modal-close {
@@ -165,7 +168,7 @@
   top: 0;
   left: 70px;
   right: 70px;
-  bottom: 0;
+  bottom: 10px;
   text-align: center;
 }
 .imgs-grid-modal .modal-inner .modal-image:before {
