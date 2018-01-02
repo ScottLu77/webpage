@@ -6911,11 +6911,3 @@ a.button:hover {
 	color: #fe5000;
 	border: 1px solid #fe5000;
 }
-
-a.button img {
-	width: 20px;
-	height: 20px
-	vertical-align: middle;
-	padding-right: 5px;
-}
-
