@@ -574,7 +574,6 @@ pre {
 /*==============================================
  Bootstrap Reset
  ===============================================*/
-.container-fluid,
 .col-lg-1,
 .col-md-1,
 .col-sm-1,
@@ -1125,15 +1124,6 @@ pre {
 }
 
 @media (max-width: 768px) {
-    .l-header {
-        position: fixed;
-        z-index: 1000;
-        top: 0;
-        width: 100%;
-        background: #fff;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
-        height: 60px;
-    }
     .menuzord-responsive .menuzord-menu > li.nav-divider {
         display: none;
     }
